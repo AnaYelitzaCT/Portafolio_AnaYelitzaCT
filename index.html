@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./src/IMG/carpeta.png">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!------------ Navbar -------------->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre mi">Sobre Mi</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!----------- Sección 1 Inicio -------------->
+    <section class="home" id="inicio">
+        <div class="home-content">
+            <h1>Ana Yelitza Campos Tapia</h1>
+            <h2>Desarrolladora Java FullStack JR</h2>
+            <p>Soy una apasionada por la tecnología y todo su desarrollo, concoce acerca de las tecnologias y
+                herramientas que utilizo.</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/ana-yelitza-campos-tapia-468694283/"> <img
+                        src="./src/IMG/linkedin (3).png" alt="linkedin" class="img"> </a>
+                <a href="https://github.com/AnaYelitzaCT/Portafolio_AnaYCT"> <img src="./src/IMG/github (3).png"
+                        alt="linkedin" alt="github" class="img"> </a>
+                <a href="https://github.com/AnaYelitzaCT/Portafolio_AnaYCT"> <img src="./src/IMG/correo-electronico.png"
+                        alt="correo" alt="linkedin" class="img"> </a>
+            </div>
+            <br>
+            <a class="btn">Descargar CV</a>
+        </div>
+
+        <div class="home-img">
+            <div class="image">
+                <img src="./src/IMG/AnaCv.png" class="fotoPerfil" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!----------- Sección 2 Sobre mi----------->
+    <section class="about-info" id="sobre mi">
+        <h2 class="about-title">Sobre Mí</h2>
+
+        <div class="animation-about-img">
+            <div class="about-img">
+                <img src="./src/IMG/AnaCv.png">
+            </div>
+        </div>
+
+        <div class="about-text">
+            <p>Mi nombre es Ana Campos, soy enfermera y Desarrolladora Java Fullstack me apasiona la tecnología,
+                he trabajado bajo la metodología ágil Scrum, me esfuerzo por estar al día con las últimas tendencias e
+                innovaciones del sector,
+                y siempre busco nuevos retos y oportunidades para aprender y crecer. </p>
+        </div>
+    </section>
+
+    <!----------- Sección 3 Portafolio ----------->
+ <section id="portfolio">
+    <h2 class="about-title">Mi Portafolio </h2>
+    <div>
+    <div class="briefcase-center">
+        <img src="./src/IMG/CentroCom.png" class="img-briefcase">
+        <h2>Centro Comunitario</h2>
+    </div>
+</div>
+</section>
+
+    <!----------- Sección 4 Skills----------->
+    <section id="skills">
+        <h2 class="about-title">Skills</h2>
+
+        <div class="skills">
+            <div>
+                <a><img src="./src/IMG/espana.png">
+                </a>
+                <a><img src="./src/IMG/reino-unido.png"></a>
+                <a><img src="./src/IMG/francia.png"></a>
+            </div>
+        </div>
+        <div class="skills" >
+           <div> 
+            <a><p>Español
+                Nativo</p></a>
+            <a><p>Inglés
+                B2</p></a>
+            <a><p>Francés
+                A2</p></div></a>
+        </div>
+        <div class="skills">
+            <div>
+                <a><img src="./src/IMG/html-5.png"></a>
+                <a><img src="./src/IMG/css-3.png"></a>
+                <a><img src="./src/IMG/bootstrap.png"></a>
+                <a><img src="./src/IMG/js.png"></a>
+            </div>
+        </div>
+        <div class="skills" >
+            <div> 
+             <a><p>HTML 5</p></a>
+             <a><p>CSS</p></a>
+             <a><p>Bootstrap</p></a>
+             <a><p>Javascript</p></a>
+         </div>
+        </div> 
+        <div class="skills">
+            <div>
+                <a><img src="./src/IMG/vs.png"></a>
+                <a><img src="./src/IMG/figma (1).png"></a>
+                <a><img src="./src/IMG/git.png"></a>
+                <a><img src="./src/IMG/trello.png"></a>
+            </div>
+        </div>
+        <div class="skills" >
+            <div> 
+             <a><p>Visual
+                Studio Code</p></a>
+             <a><p>Figma</p></a>
+             <a><p>Git</p></a>
+             <a><p>Trello</p></a>
+         </div>
+        </div> 
+    </section>
+   
+
+    <!----------- Sección 5 Contacto----------->
+    <section id="contacto">
+        <div class="formContact">
+        <h2 class="about-title">¡Contacta conmigo!</h2>
+    
+        <form>
+            <div class="box">
+                <!--------Name-------->
+                <div class="field">
+                    <input name="name" type="text" placeholder="Name" id="Name" required>
+                </div>
+                 <!--------LastName-------->
+                 <div class="field">
+                    <input name="Lastname" type="text" placeholder="Lastname" id="Lastname" required>
+                </div>
+                <!--------Email-------->
+                <div class="field">
+                    <input name="email" type="email" placeholder="your@email.com" id="email" required>
+                </div>
+            </div>
+
+            <!--------Message-------->
+            <div class="text-field">
+                <textarea name="Message" type="mensaje" placeholder=" Message" cols="30" rows="10" id="Message"
+                    required></textarea>
+                
+            </div>
+            <div class="btn-box btns">
+                <button type="submit" class="btn" id="btnEnviar">Enviar</button>
+            </div>
+            <br>
+        </form>
+    </div>
+    </section>
+
+
+    <!------------ Footer -------------->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 Ana Yelitza Campos Tapia </p>
+        </div>
+    </footer>
+</body>
+
+</html>
